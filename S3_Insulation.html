@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+    <script src="sidebar.js"></script>
+    <script src="setSessionID.js"></script>
+    <script src="MaterialData.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div include-html="sidebar.html"></div>
+    <div class="content">
+        <div class="message">
+            <table>
+                <tr>
+                    <th>Material Name</th>
+                    <th>Material Size</th>
+                    <th>Material Cost</th>
+                </tr>
+                <tr>
+                    <td>Inner Tube</td>
+                    <td>Size 1</td>
+                    <td>Cost 1</td>
+                </tr>
+                <tr>
+                    <td>DDP Support</td>
+                    <td>Size 2</td>
+                    <td>Cost 2</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 1</td>
+                    <td>Size 3</td>
+                    <td>Cost 3</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 2</td>
+                    <td></td>
+                    <td>Total Cost</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 3</td>
+                    <td></td>
+                    <td>Total Cost</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 4</td>
+                    <td>Size 4</td>
+                    <td>Cost 4</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 5</td>
+                    <td>Size 5</td>
+                    <td>Cost 5</td>
+                </tr>
+                <tr>
+                    <td>Cooling duct 6</td>
+                    <td>Size 6</td>
+                    <td>Cost 6</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script>
+        // Calculate Inner Tube
+        // Retrive 5.5 form s5-LV-to-Core-Leg	5.50x  5.50x  6.00
+        var innerTubeThickness = sessionStorage.getItem("s5-LV-to-Core-Leg");
+        var innerTubeWidth = sessionStorage.getItem("s5-LV-to-Core-Leg");
+        var innerTubeHeight = sessionStorage.getItem("s5-LV-to-Core-Leg");
+
+
+
+
+    </script>
+</body>
+</html>
